@@ -21,14 +21,9 @@ export default function SiteHeader() {
           </div>
         </div>
 
-        <a
-          href="https://www.escortsaffair.com/manage/ad/market"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-lg px-5 py-2 text-[13px] font-semibold bg-pink-primary text-white hover:bg-pink-deep"
-        >
+        <span className="rounded-lg px-5 py-2 text-[13px] font-semibold bg-pink-primary text-white">
           Post
-        </a>
+        </span>
       </div>
 
       {/* Row 2: Adult SEO right-aligned */}
