@@ -2,26 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: #000;
+  background: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.list-square {
+  list-style-type: square;
 }
