@@ -15,10 +15,10 @@ export default function SiteHeader() {
           </div>
         </div>
 
-        {/* Right: Adult SEO link + Post button */}
-        <div className="flex items-center gap-3">
-          <a href="https://www.escortsaffair.com" target="_blank" rel="noopener noreferrer" className="text-pink-primary underline text-[13px]">Adult SEO</a>
+        {/* Right: Post button + Adult SEO link */}
+        <div className="flex flex-col items-end gap-1">
           <a href="https://www.escortsaffair.com/manage/ad/market" target="_blank" rel="noopener noreferrer" className="rounded-full px-[14px] py-1 text-[12px] font-semibold bg-pink-primary text-white hover:bg-pink-deep inline-block">Post</a>
+          <a href="https://www.escortsaffair.com" target="_blank" rel="noopener noreferrer" className="text-pink-primary underline text-[13px]">Adult SEO</a>
         </div>
       </div>
 
