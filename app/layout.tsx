@@ -14,11 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
+      <head>
         <Script
           id="smartsupp"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               var _smartsupp = _smartsupp || {};
@@ -32,6 +31,9 @@ export default function RootLayout({
             `,
           }}
         />
+      </head>
+      <body>
+        {children}
       </body>
     </html>
   );
