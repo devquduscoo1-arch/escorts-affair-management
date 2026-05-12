@@ -15,9 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
-          id="smartsupp"
-          strategy="beforeInteractive"
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               var _smartsupp = _smartsupp || {};
